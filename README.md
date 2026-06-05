@@ -2,8 +2,6 @@
 
 A lightweight, fully **local** Retrieval-Augmented Generation (RAG) playground built on top of Hugging Face Transformers. It loads local LLMs (Llama / Qwen / WiroAI) and a local embedding model, ingests your documents (PDF / TXT / MD / CSV), indexes them with either **FAISS** or **ChromaDB**, and answers questions grounded only in the retrieved context.
 
-The repo also ships a small standalone **LangGraph + llama.cpp** example (`agentic_rag_example.py`) that demonstrates an agentic routing graph.
-
 ---
 
 ## Features
