@@ -211,7 +211,7 @@ if __name__ == "__main__":
     # from pathlib import Path
     # from pypdf import PdfReader
 
-    # path = Path("data/docs/MehmetcanTozlu-CV-eng.pdf")
+    # path = Path("data/docs/MehmetcanTozlu-CV.pdf")
     # reader = PdfReader(str(path))
 
     # for page_idx, page in enumerate(reader.pages):
