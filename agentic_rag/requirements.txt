@@ -1,0 +1,18 @@
+# Core RAG pipeline (main.py, rag/, models/)
+torch==2.7.0
+transformers==4.57.6
+accelerate==1.10.1
+safetensors==0.5.3
+tokenizers==0.22.2
+faiss-cpu==1.13.0
+chromadb==1.0.12
+pypdf==5.6.0
+pandas==2.2.3
+numpy==2.2.6
+
+# Standalone agentic demo only (agentic_rag_example.py)
+langchain==0.3.26
+langchain-community==0.3.27
+langgraph==0.6.7
+llama-cpp-python==0.3.16
+sentence-transformers==4.1.0
