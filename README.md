@@ -173,7 +173,7 @@ python agentic_rag_example.py
 
 ---
 
-## Notes
+# Notes
 
 - The system is designed to run **entirely offline** — embedding and LLM models are loaded from local paths (`local_files_only=True`), and Chroma telemetry is disabled.
 - Answers are intentionally constrained to retrieved context; if the information isn't present, the model is instructed to say so rather than hallucinate.
